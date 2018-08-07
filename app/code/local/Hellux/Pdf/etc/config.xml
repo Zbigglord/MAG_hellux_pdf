@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hellux_Pdf>
+            <version>0.1.0</version>
+        </Hellux_Pdf>
+    </modules>
+    <global>
+        <models>
+            <hellux_pdf>
+                <class>Hellux_Pdf_Model</class>
+                <resourceModel>hellux_pdf_resource</resourceModel>
+            </hellux_pdf>
+            <hellux_pdf_resource>
+                <class>Hellux_Pdf_Model_Resource</class>
+            </hellux_pdf_resource>
+        </models>
+        <blocks>
+            <hellux_pdf>
+                <class>Hellux_Pdf_Block</class>
+            </hellux_pdf>
+        </blocks>
+        <helpers>
+            <hellux_pdf>
+                <class>Hellux_Pdf_Helper</class>
+            </hellux_pdf>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Hellux_Pdf before="Mage_Adminhtml">Hellux_Pdf_Adminhtml</Hellux_Pdf>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

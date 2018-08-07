@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hellux_Pdf>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Hellux_Pdf>
+    </modules>
+</config>

@@ -1,0 +1,1 @@
+for different shops need adjustments like attribs and links

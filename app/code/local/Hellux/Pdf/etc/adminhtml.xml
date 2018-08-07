@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<menu>
+		<hellux translate="title" module="hellux_pdf">
+			<title>Hellux</title>
+			<sort_order>100</sort_order>
+			<!-- action>allegro/controller</action -->
+			<children>
+				<pdf translate="title">
+					<title>Pdf</title>
+					<sort_order>10</sort_order>
+					<children>
+						<products translate="title">
+							<title>Ekportuj do PDF</title>
+							<action>adminhtml/print</action>
+							<sort_order>20</sort_order>
+						</products>
+					</children>
+				</pdf>
+			</children>
+		</hellux>
+	</menu>
+	<acl><!--  You may want to deny access to some of pages for certain groups of backend users -->
+		<!--  Go to admin menu SYSTEM/PERMISSIONS/ROLES and go from there -->
+
+	</acl>
+</config>
